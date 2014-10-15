@@ -1,0 +1,51 @@
+/*
+
+My CSS global file
+
+*/
+html, body, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, li, dl, dt, dd, form, fieldset, input, textarea, label, u {
+	margin : 0;
+	padding: 0;
+	border: 0px;
+	list-style: none;
+	font-weight: normal;
+	font-style: normal;
+	text-align: left;
+	font-family: arial;
+}
+
+body{background:#FFF;}
+
+a,
+a:hover{text-decoration:none;}
+
+#wrapper {
+	width:1200px;
+	margin:0 auto;
+	}
+	
+#header {width:100%; height:100px; }
+
+#logo{float:left;}
+
+/*nav*/
+#nav {padding-top:60px; margin-left:250px;}
+#nav a{font-size:12px; color:#000; font-weight:bold;}
+#nav span{color:#999; display:block; padding-bottom:8px; font-weight:normal;}
+
+#nav ul li {float:left; margin:0 20px;}
+#nav li{border-bottom:3px solid #999;}
+
+/*footer top*/
+#footer-top{background:#f2f2f2; padding-bottom:50px; height:150px}
+#footer-top .col {float:left; width:400px;}
+#footer-top ul{margin-left:30px;}
+#footer-top li{list-style:disc; font-weight:bold;}
+#footer-top a{color:#000;}
+#attribute-contact{border-top:1px solid #999;}
+
+/*footer-bottom*/
+#footer-bottom{background:#000;color:#FFF;padding:20px 20px; font-size:9px;}
+#col5 ul li {float:left;list-style:none;}
+#col5 h3 {font-size:12px;}
+#col5 span{font-size:10px; color:#999;}
