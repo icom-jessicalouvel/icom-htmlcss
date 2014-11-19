@@ -1,0 +1,112 @@
+/*
+
+My CSS global file
+
+*/
+html, body, h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, li, dl, dt, dd, form, fieldset, input, textarea, label, u {
+	margin : 0;
+	padding: 0;
+	border: 0px;
+	list-style: none;
+	font-weight: normal;
+	font-style: normal;
+	text-align: left;
+	font-family: arial;
+}
+
+body{background:#FFF;}
+
+a,
+a:hover{
+	text-decoration:none; 
+	color:#D90115;}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-size:14px;
+}
+
+#wrapper {
+	max-width:1200px;
+	margin:0 auto;
+	}
+	
+header {height:100px; }
+
+#logo{float:left;}
+
+/*nav*/
+nav {padding-top:60px;}
+nav a{
+	font-size:12px; 
+	color:#000; 
+	font-weight:bold;}
+nav a:hover{color:#ffd200;}
+nav span{
+	color:#999; 
+	display:block; 
+	padding-bottom:8px; 
+	font-weight:normal;}
+
+nav ul li {
+	float:left; 
+	margin:0 20px;}
+nav li{
+	border-bottom:3px 
+	solid #999;}
+nav li:hover{border-bottom:3px solid #ffd200;}
+
+/*footer top*/
+#footer-top{
+	background:#f2f2f2;  
+	min-height:200px; 
+	border-top: 10px 
+	solid #FFF;}
+
+#footer-top ul{margin-left:30px;}
+#footer-top li{
+	list-style:disc; 
+	font-weight:bold;}
+#footer-top a{color:#000;}
+#footer-top h2{margin-bottom:20px;}
+
+#contact ul li {
+	float:left;
+	list-style:none;}
+#contact ul li img{padding-right: 12px;}
+
+#contact h3 {font-size:12px;}
+#contact span{
+	font-size:10px; 
+	color:#999;}
+
+#diapo img{
+	width:70px; 
+	height:70px;
+	-webkit-transform: scale(0.9);
+	-webkit-transition-duration: .4s;
+	cursor: pointer;}
+
+#diapo img:hover{-webkit-transform: scale(1.2);}	
+
+
+/*footer-bottom*/
+#footer-bottom{
+	background:#000;
+	color:#FFF;
+	padding:20px 0px; 
+	font-size:9px; }
+#footer-bottom p{padding-left: 20px;}
+
+
+
+.clearfix:before,
+.clearfix:after {
+	clear: both;
+	display: table;
+	content: " ";
+	overflow: auto;
+  	zoom: 1;
+
+}

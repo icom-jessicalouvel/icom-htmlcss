@@ -1,0 +1,66 @@
+#slider img{max-width:100%;}
+
+#container{
+	margin-top:10px; 
+	min-height:500px;}
+
+#container .col{
+	float:left;
+	width:400px;}
+
+#col1, #col3{background:#f2f2f2;}
+.block {margin:15px;}
+
+h3 {
+	font-weight:bold;
+	font-size:14px;}
+
+h2,h3, .col a{text-transform:uppercase;}
+
+h2 {
+	border-left:4px solid #ffd200; 
+	padding-left:8px;
+	font-size:14px; 
+	margin-top:10px;}
+
+/*Colone 1*/
+.attribute-time{
+	margin:5px 0; 
+	padding:5px 0; f
+	ont-size:14px;}
+#col1 .date{
+	color:#ffd200;
+	font-weight:bold;}
+.hour{padding-left:10px; /*border-left:1px solid #999;*/}
+#col1 h3{margin-top:30px;}
+/*#col1 .date, #col1 .hour{ border-top:1px solid #999;border-bottom:1px solid #999;}*/
+
+
+/*Colone 2*/
+#col2 .attribute-short {
+	margin:10px 0; 
+	border-top: 1px solid #999; 
+	border-bottom: 1px solid #999;
+	padding:8px 0;
+}
+
+/*Colone 3*/
+.button {
+	background: #ffd200; 
+	margin:20px;
+	padding:10px;}
+.button:hover{
+	background: #D90115; 
+	cursor:pointer;}
+
+#col3 h3{color:#FFF;}
+#col3 img{
+	float:left;
+	padding-right:8px;
+	height:100%;}
+.twitter img{
+	padding-left:30px; 
+	padding-bottom: 20px;}
+.twitter span{
+	display:block;
+	padding-bottom:15px;}
